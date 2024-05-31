@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(192, 180, 180);
+}
+.cal_name {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0px;
+    width: fit-content;
+}
+.cal_buttons{
+    font-size: 0;
+    margin-top: 5px;
+}
+.main{
+    max-width: 405px;
+    height: 450px;
+    border: black solid 8px;
+    margin:10px auto;
+    padding: 5px;
+    text-align: center;
+    transition: .3s;
+    
+}
+.display {
+    margin-top: 10px;
+}
+.display #result{
+    width: 400px;
+    height: 90px;
+    font-size:60px ;
+    text-align: right;
+    font-weight: bold;
+    padding: 0px 1px 0px 0px;
+    border: black solid 3px;
+    letter-spacing: 5px;
+}
+.btn{
+    color: black;
+    background-color: white;
+    width:101.25px;
+    height: 70px;
+    font-size: 35px;
+    
+}
+.btn:hover{
+    background-color: rgb(191, 191, 199);
+}
+
